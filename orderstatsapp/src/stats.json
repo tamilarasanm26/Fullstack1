@@ -1,0 +1,35 @@
+[
+   
+      {
+        "id" : 1,
+        "label": "Revenue",
+        "value": "$2,047",
+        "percentage": -10,
+        "image": "assets/arrow.png",
+        "color": "#FFB020"
+      },
+      {
+        "id" : 2,
+        "label": "Orders",
+        "value": 356,
+        "percentage": 20,
+        "image": "assets/cart.png",
+        "color": "#42A5F5"
+      },
+      {
+        "id" : 3,
+        "label": "Dine in",
+        "value": 220,
+        "percentage": 10,
+        "image": "assets/spon.png",
+        "color": "#EF5350"
+      },
+      {
+        "id" : 4,
+        "label": "Take away",
+        "value": 135,
+        "percentage": -5,
+        "image": "assets/bottel.png",
+        "color": "#FFCA28"
+      }
+]

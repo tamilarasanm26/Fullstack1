@@ -1,0 +1,68 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 0 20px; 
+  }
+  
+ 
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+  
+  .header .left {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header .right {
+    font-size: 1rem;
+    font-weight: normal;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .header .right:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  .course-table {
+    border-collapse: collapse; 
+    width: 80%; 
+    margin: 0 auto; 
+    border: 1px solid #ddd; 
+  }
+  
+ 
+  .course-table th {
+    background-color: #f4f4f4;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; 
+  }
+  
+ 
+  .course-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; 
+  }
+  
+  
+  .course-table tr {
+    margin-bottom: 10px;
+  }
+  
+ 
+  .course-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
